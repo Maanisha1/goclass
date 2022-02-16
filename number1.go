@@ -1,7 +1,10 @@
 package main
+
 import "fmt"
 
 func main() {
-//test
-	fmt.Println("i am manisha")
+	p := 5
+
+	fmt.Println(&p)
+
 }
